@@ -7,8 +7,8 @@ export const PostsList = () => {
 
   const mapPosts = posts.map((post) => (
     <article>
-      <h4>post.title</h4>
-      <h6>post.content</h6>
+      <h4>{post.title}</h4>
+      <h6>{post.content}</h6>
     </article>
   ))
 
