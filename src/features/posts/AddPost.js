@@ -30,7 +30,9 @@ export const AddPostComponent = () => {
         <label>Content:</label>
         <input value={inputContent} onChange={onContentChange} />
 
-        <button type="button">Add</button>
+        <button type="button" onClick={onPostSubmit}>
+          Add
+        </button>
       </form>
     </section>
   )
